@@ -2,7 +2,7 @@
 
 Hi Dave,
 
-your mentioned on your last live show that the questions asked on irc has to be printed via an old style serial printer.
+you mentioned on your last live show that the questions asked on irc has to be printed via an old style serial printer.
 
 Luckily I have modified some of my existing ircbot code and came up with this.
 
