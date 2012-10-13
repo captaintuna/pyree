@@ -1,3 +1,5 @@
+### Website: [http://pyree.de](http://pyree.de)
+
 ## IRC Bot for ustream Q's
 
 Hi Dave,
@@ -15,7 +17,10 @@ I hope this will help you.
 
 \- Timo
 
-### [www.pyree.de](http://pyree.de)
+CC BY-NC-SA
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+
 
 <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://bytetrag.de"></a>
     <noscript>
