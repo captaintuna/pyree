@@ -16,3 +16,9 @@ I hope this will help you.
 \- Timo
 
 ### [www.pyree.de](http://pyree.de)
+
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://bytetrag.de"></a>
+    <noscript>
+        <a href="http://flattr.com/thing/712500/Bytetrag" target="_blank">
+        <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+    </noscript>
