@@ -54,7 +54,7 @@ class PyBot(asyncore.dispatcher):
         # Parameters: <user> <mode> <unused> <realname>
         # Bit 3 = +i
         # Bit 2 = +w
-        self.send('USER %s 2 * :IRC %s\r\n'% (self.nickname, 'pyree.de by Timo Schrappe'))
+        self.send('USER %s 12 * :IRC %s\r\n'% (self.nickname, 'pyree.de by Timo Schrappe'))
 
 
     def convertIRCMessage(self, s):
@@ -86,9 +86,12 @@ class PyBot(asyncore.dispatcher):
             self.send('JOIN %s\r\n' % self.channel)
         elif cmd == 'PRIVMSG' and args[0] == self.channel and (args[1].startswith('Q:') or args[1].startswith('q:')):
             question = args[1][2:].strip()
-            print question
+            nick = prefix.split('@')[0].split('!')[0]
+            print "%s: %s" % (nick, question)
             # Here code for your printer ;-)
             # http://pyserial.sourceforge.net/pyserial_api.html
+        elif cmd == '221':
+            print prefix, args
 
 
     def handle_read(self):
