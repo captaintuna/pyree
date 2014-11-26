@@ -17,10 +17,6 @@ I hope this will help you.
 
 \- Timo
 
-CC BY-NC-SA
-http://creativecommons.org/licenses/by-nc-sa/3.0/
-
-
 
 <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://bytetrag.de"></a>
     <noscript>
